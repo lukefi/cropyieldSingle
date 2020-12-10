@@ -3,6 +3,13 @@
 This repository includes codes that are used to reshape histogram files from Sentinel-2 single image time series into analysis ready format and 
 build neural network models to predict crop yield.
 
+## Python environment
+
+Python version used is Python 3.8.6. The codes will probably also work on earlier versions as well. Tensorflow version used is 2.3.1.
+
+The file requirements.txt may be used to create a virtual Python environment using:
+
+conda create --name <env> --file requirements.txt
 
 ## processing
 
