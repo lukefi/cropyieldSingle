@@ -189,8 +189,8 @@ def main(args):
         Path(data_folder3).mkdir(parents=True, exist_ok=True)
 
 
-        #createMissingFiles(datadir)
-        #getAttributesFromFilename(datadir, data_folder2)
+        createMissingFiles(datadir)
+        getAttributesFromFilename(datadir, data_folder2)
         all_files_df = mergeAllGetNumpyArrays(data_folder2, data_folder3, bins, outputfile)
         testing(all_files_df, out_dir_path, outputfile)
 
