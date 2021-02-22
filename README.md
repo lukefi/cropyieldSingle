@@ -1,4 +1,4 @@
-# cropyieldSingle
+# Technical Report
 
 This repository includes codes that are used to reshape histogram files from Sentinel-2 single image time series into analysis ready format and 
 build neural network models to predict crop yield.
@@ -6,6 +6,12 @@ build neural network models to predict crop yield.
 Here is a visual representation of the workflow:
 
 ![Workflow](img/WP2-workflow.png)
+
+Prerequisites: Sentinel-2 image data is preprocessed with codes in github.com/lukefi/cropyield . For machine learning, the data should be divided into training and test set. 
+
+## Reference data
+
+As a reference data, we will have historical crop yields per hectare on farm-level from around 6,000 Finnish agricultural holdings participating the annual Finnish crop production survey. Note that this is condidential information and available only for statistical production purposes with disclosure agreement. The crop species included in this study are winter wheat, spring wheat, oat, malting barley, feed barley, and autumn rye.
 
 ## Python environment
 
