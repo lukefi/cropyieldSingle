@@ -55,7 +55,7 @@ WHERE:
 
 This code trains LSTMsingle and RNNsingle models and calculates predictions for a test set.
 
-### Funding acknowledgements
+## Funding acknowledgements
 
 This work was supported by the European Union (grant 831735 — 2018-FI-CROPYIELD).
 
