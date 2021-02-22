@@ -15,7 +15,7 @@ The file requirements.txt may be used to create a virtual Python environment usi
 
 conda create --name env_name --file requirements.txt
 
-## processing
+## Workflow
 
 ### 1. python/histo2stack.py
 
@@ -55,6 +55,8 @@ WHERE:
 
 This code trains LSTMsingle and RNNsingle models and calculates predictions for a test set.
 
-This project was funded by the European Union (grant 831735 — 2018-FI-CROPYIELD).
+### Funding acknowledgements
+
+This work was supported by the European Union (grant 831735 — 2018-FI-CROPYIELD).
 
 ![Funded by Eurostat](img/Eurostat_logo_RGB_200-small.png)
