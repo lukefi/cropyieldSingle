@@ -3,6 +3,12 @@
 This repository includes codes that are used to reshape histogram files from Sentinel-2 single image time series into analysis ready format and 
 build neural network models to predict crop yield.
 
+Here is a visual representation of the workflow:
+
+.. image:: img/WP2-workflow.png
+  :width: 800
+  :alt: Workflow
+
 ## Python environment
 
 Python version used is Python 3.8.6. The codes will probably also work on earlier versions as well. Tensorflow version used is 2.3.1.
@@ -50,3 +56,9 @@ WHERE:
 ### 3. python/run3DNeuralNet.py
 
 This code trains LSTMsingle and RNNsingle models and calculates predictions for a test set.
+
+This project was funded by the European Union (grant 831735 — 2018-FI-CROPYIELD).
+
+.. image:: img/Eurostat_logo_RGB_200-small.png
+  :width: 200
+  :alt: Funded by Eurostat.
