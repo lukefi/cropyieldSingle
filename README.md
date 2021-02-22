@@ -9,7 +9,7 @@ Python version used is Python 3.8.6. The codes will probably also work on earlie
 
 The file requirements.txt may be used to create a virtual Python environment using:
 
-conda create --name <env> --file requirements.txt
+conda create --name env_name --file requirements.txt
 
 ## processing
 
