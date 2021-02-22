@@ -24,15 +24,28 @@ python histo2stack.py -i /Users/user/Documents/myCROPYIELD/scratch/project_20012
 WHERE:
 
 -i is the input directory where are histograms in .csv files.
+
 -n is the number of bins in histograms.
+
 -o is the given output directory
+
 -f is the given output filename
+
+The programme will write results into output_dir_temp.
 
 2. python/stack2ARD.py
 
-This code stacks all numpy array files for a given parameter (year) into one numpy array file.
+This code stacks all numpy array files into one numpy array file. This programme finally converts data into machine learning ready format.
 
+RUN:
+
+python stack2ARD.py -o /Users/myliheik/Documents/myCROPYIELD/dataStack -f test1110 
+
+WHERE:
+
+-o is the output directory (same as previously for histo2stack.py)
+- f is a characterizing name name of the data set
 
 3. python/run3DNeuralNet.py
 
-This code trains LSTMsuperb and RNNsuperb models and calculates predictions for test set.
+This code trains LSTMsingle and RNNsingle models and calculates predictions for a test set.
