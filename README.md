@@ -5,9 +5,7 @@ build neural network models to predict crop yield.
 
 Here is a visual representation of the workflow:
 
-.. image:: img/WP2-workflow.png
-  :width: 800
-  :alt: Workflow
+![Workflow](img/WP2-workflow.png)
 
 ## Python environment
 
@@ -59,6 +57,4 @@ This code trains LSTMsingle and RNNsingle models and calculates predictions for 
 
 This project was funded by the European Union (grant 831735 — 2018-FI-CROPYIELD).
 
-.. image:: img/Eurostat_logo_RGB_200-small.png
-  :width: 200
-  :alt: Funded by Eurostat.
+![Funded by Eurostat](img/Eurostat_logo_RGB_200-small.png)
