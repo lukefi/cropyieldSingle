@@ -44,7 +44,8 @@ python stack2ARD.py -o /Users/myliheik/Documents/myCROPYIELD/dataStack -f test11
 WHERE:
 
 -o is the output directory (same as previously for histo2stack.py)
-- f is a characterizing name name of the data set
+
+-f is a characterizing name name of the data set
 
 3. python/run3DNeuralNet.py
 
