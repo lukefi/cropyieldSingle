@@ -13,7 +13,7 @@ conda create --name env_name --file requirements.txt
 
 ## processing
 
-1. python/histo2stack.py
+### 1. python/histo2stack.py
 
 This code stacks all histogram files in a directory into one numpy array file.
 
@@ -33,7 +33,7 @@ WHERE:
 
 The programme will write results into output_dir_temp.
 
-2. python/stack2ARD.py
+### 2. python/stack2ARD.py
 
 This code stacks all numpy array files into one numpy array file. This programme finally converts data into machine learning ready format.
 
@@ -47,6 +47,6 @@ WHERE:
 
 -f is a characterizing name name of the data set
 
-3. python/run3DNeuralNet.py
+### 3. python/run3DNeuralNet.py
 
 This code trains LSTMsingle and RNNsingle models and calculates predictions for a test set.
